@@ -11,7 +11,7 @@ In the real estate market, predicting house prices is a crucial task. We can use
 ## 3. Elaboration: Math and Statistics behind Linear Regression
 Linear Regression assumes that the relationship between the dependent variable \( $y$ \) and the independent variable(s) \( $X$ \) is linear. The model can be expressed as:
 $$
-\[ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon \]
+y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon \
 $$
 where:
 - \( $y$ \) is the dependent variable.
