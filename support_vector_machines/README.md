@@ -11,7 +11,7 @@ Email spam detection is a common application of classification algorithms. We ca
 ## 3. Elaboration: Math and Statistics behind Support Vector Machines
 SVM aims to find the hyperplane that best separates the classes. For a linearly separable dataset, the decision boundary can be expressed as:
 
-${w}$ $\cdot$ ${x}$ $ - b = 0$
+${w}$ $\cdot$ ${x }$ $- b = 0$
 
 where:
 - \( ${w}$ \) is the weight vector perpendicular to the hyperplane.
