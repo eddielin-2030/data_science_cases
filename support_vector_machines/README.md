@@ -20,11 +20,11 @@ where:
 
 The optimization problem for SVM is to maximize the margin \( $\frac{2}{\|\mathbf{w}\|}$ \) subject to the constraint that all data points are correctly classified. This can be formulated as:
 
-$ \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2 $
+$\min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2$
 
 subject to:
 
-$ y_i (\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1 $
+$y_i (\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1$
 
 For non-linearly separable data, SVM uses kernel functions to map the input space to a higher-dimensional space where a linear separation is possible. Common kernels include:
 - Linear kernel
