@@ -11,14 +11,14 @@ Email spam detection is a common application of classification algorithms. We ca
 ## 3. Elaboration: Math and Statistics behind Support Vector Machines
 SVM aims to find the hyperplane that best separates the classes. For a linearly separable dataset, the decision boundary can be expressed as:
 
-${w}$ $\cdot$ ${x}$ - b = 0
+${w}$ $\cdot$ ${x}$ $- b = 0$
 
 where:
 - \( ${w}$ \) is the weight vector perpendicular to the hyperplane.
 - \( ${x}$ \) is the input feature vector.
 - \( $b$ \) is the bias term.
 
-The optimization problem for SVM is to maximize the margin \( \frac{2}{\|\mathbf{w}\|} \) subject to the constraint that all data points are correctly classified. This can be formulated as:
+The optimization problem for SVM is to maximize the margin \( $\frac{2}{\|\mathbf{w}\|}$ \) subject to the constraint that all data points are correctly classified. This can be formulated as:
 
 $ \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2 $
 
