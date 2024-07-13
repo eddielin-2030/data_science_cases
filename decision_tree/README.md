@@ -13,17 +13,17 @@ Decision Trees make predictions by following a series of decision rules inferred
 
 - **Gini impurity** is a measure of how often a randomly chosen element would be incorrectly classified. It is calculated as:
   
-  \[
-  \$$text{Gini} = 1 - \sum_{i=1}^{n} p_i^2$$
-  \]
+ 
+  \$${Gini} = 1 - \sum_{i=1}^{n} p_i^2$$
+ 
 
   where \( $p_i$ \) is the probability of an element being classified into a particular class.
 
 - **Information gain** is the reduction in entropy after a dataset is split on an attribute. Entropy is a measure of the disorder or uncertainty in the dataset and is given by:
 
-  \[
-  \$$text{Entropy} = - \sum_{i=1}^{n} p_i \log_2(p_i)$$
-  \]
+ 
+  \$${Entropy} = - \sum_{i=1}^{n} p_i \log_2(p_i)$$
+ 
 
   Information gain for a split is calculated as the difference between the entropy of the original dataset and the weighted sum of the entropy of each subset resulting from the split.
 
