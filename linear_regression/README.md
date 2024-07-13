@@ -18,16 +18,18 @@ $$
 where:
 - \( $y$ \) is the dependent variable.
 - \( $x_1$, $x_2$, $\ldots$, $x_n$ \) are the independent variables.
-- \( \$beta_0$ \) is the intercept.
+- \( $\beta_0$ \) is the intercept.
 - \( $\beta_1$, $\beta_2$, $\ldots$, $\beta_n$ \) are the coefficients.
 - \( $\epsilon$ \) is the error term.
 
 The goal is to estimate the coefficients \( \$beta$ \) that minimize the sum of the squared errors (SSE) between the observed values and the values predicted by the linear model. This is achieved using the least squares method.
 
 The equation for the coefficients in matrix form is:
+
 $$
-\[ \beta = (X^T X)^{-1} X^T y \]
+\ \beta = (X^T X)^{-1} X^T y \
 $$
+
 where \( $X$ \) is the matrix of input features, \( $X^T$ \) is the transpose of \( $X$ \), and \( $y$ \) is the vector of observed values.
 
 ## 4. Python Code to perform Linear Regression for the problem presented in the case study
