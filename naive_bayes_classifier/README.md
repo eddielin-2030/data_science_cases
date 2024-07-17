@@ -26,7 +26,7 @@ $P(X|C) = P(x_1|C) \cdot P(x_2|C) \cdot \ldots \cdot P(x_n|C)$
 The Naive Bayes classifier predicts the class $C$ that maximizes $P(C|X)$.
 
 ## 4. Python Code to perform Naive Bayes Classifier for the problem presented in the case study
-The Python code for performing Naive Bayes Classifier on a movie review sentiment analysis dataset is provided in a separate file: [naive_bayes.py](./naive_bayes.py).
+The Python code for performing Naive Bayes Classifier on a movie review sentiment analysis dataset is provided in a separate file: [naive_bayes.py](./naive_bayes_classifier.py).
 
 ## 5. Insights summary
 Naive Bayes classifiers are simple yet effective for various classification problems, particularly those involving text data. In the context of classifying movie reviews as positive or negative, the Naive Bayes model leverages word frequencies to determine the sentiment. 
