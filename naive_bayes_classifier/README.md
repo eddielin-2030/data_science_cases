@@ -14,16 +14,16 @@ Naive Bayes classifiers apply Bayes' Theorem with strong (naive) independence as
  $P(C|X) = \frac{P(X|C) \cdot P(C)}{P(X)}$
 
 where:
-- \( $P(C|X)$ \) is the posterior probability of class \( $C$ \) given the feature vector \( $X$ \).
-- \( $P(X|C)$ \) is the likelihood of feature vector \( $X$ \) given class \( $C$ \).
-- \( $P(C)$ \) is the prior probability of class \( $C$ \).
-- \( $P(X)$ \) is the prior probability of feature vector \( $X$ \).
+- $P(C|X)$ is the posterior probability of class $C$ given the feature vector $X$ .
+- $P(X|C)$ is the likelihood of feature vector $X$ given class $C$.
+- $P(C)$ is the prior probability of class $C$.
+- $P(X)$ is the prior probability of feature vector $X$.
 
-For classification, we are interested in finding the class \( $C$ \) that maximizes the posterior probability \( $P(C|X)$ \). Using the independence assumption, the likelihood \( $P(X|C)$ \) can be decomposed into the product of individual feature likelihoods:
+For classification, we are interested in finding the class \( $C$ \) that maximizes the posterior probability $P(C|X)$. Using the independence assumption, the likelihood $P(X|C)$ can be decomposed into the product of individual feature likelihoods:
 
 $P(X|C) = P(x_1|C) \cdot P(x_2|C) \cdot \ldots \cdot P(x_n|C)$
 
-The Naive Bayes classifier predicts the class \( $C$ \) that maximizes \( $P(C|X)$ \).
+The Naive Bayes classifier predicts the class $C$ that maximizes $P(C|X)$.
 
 ## 4. Python Code to perform Naive Bayes Classifier for the problem presented in the case study
 The Python code for performing Naive Bayes Classifier on a movie review sentiment analysis dataset is provided in a separate file: [naive_bayes.py](./naive_bayes.py).
