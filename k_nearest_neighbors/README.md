@@ -11,10 +11,12 @@ In the field of botany, classifying iris flowers based on their species is a com
 ## 3. Elaboration: Math and Statistics behind K-Nearest Neighbors
 K-Nearest Neighbors algorithm operates by finding the distance between the input instance and all the training samples. The distance can be measured using various metrics, with Euclidean distance being the most common:
 
- $d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}$
+ $
+ d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+ $
 
 where:
-- \( $\mathbf{x}$ \) and \( $\mathbf{y}$ \) are two instances in the feature space.
+- ${x}$ and ${y}$ are two instances in the feature space.
 -  $n$ is the number of features.
 
 For classification, the class with the highest frequency among the k-nearest neighbors is assigned to the input instance. For regression, the average value of the k-nearest neighbors is used as the prediction.
