@@ -18,11 +18,12 @@ The final prediction is made by aggregating the predictions of all the trees:
 - For regression: the mean of the predictions.
 
 The formula for the prediction in regression is:
+
 $$
 \hat{y} = \frac{1}{T} \sum_{t=1}^{T} \hat{y}_t 
 $$
 
-where $\hat{y}_t$ is the prediction from the $t-th$ tree and $T$ is the total number of trees.
+where $\hat{y}_t$ is the prediction from the $t$-th tree and $T$ is the total number of trees.
 
 ## 4. Python Code to perform Random Forest for the problem presented in the case study
 The Python code for performing Random Forest on a loan default prediction dataset is provided in a separate file: [random_forest.py](./random_forest.py).
