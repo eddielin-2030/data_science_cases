@@ -14,11 +14,13 @@ Gradient Boosting involves three main components:
 2. A weak learner (typically a decision tree) to make predictions.
 3. An additive model to minimize the loss function by adding weak learners sequentially.
 
-The model starts with an initial prediction, and then iteratively adds new trees that fit the residual errors from the previous trees. The update rule for each iteration \( m \) is:
+The model starts with an initial prediction, and then iteratively adds new trees that fit the residual errors from the previous trees. The update rule for each iteration $m$  is:
 
-\[ F_m(x) = F_{m-1}(x) + h_m(x) \]
+$$
+F_m(x) = F_{m-1}(x) + h_m(x)
+$$
 
-where \( F_m(x) \) is the prediction from the \( m \)-th iteration, and \( h_m(x) \) is the new tree fitted to the residuals.
+where $F_m(x)$ is the prediction from the $m$-th iteration, and $h_m(x)$ is the new tree fitted to the residuals.
 
 The weights for the updates are determined using gradient descent to minimize the chosen loss function.
 
@@ -29,11 +31,11 @@ The Python code for performing Gradient Boosting Machines on a customer churn pr
 Gradient Boosting Machines are powerful and flexible algorithms that can handle various types of data and model complex relationships. In the context of predicting customer churn, the GBM model leverages multiple decision trees to capture the factors contributing to churn.
 
 ### Metrics Results
-- **Accuracy:** 0.75
-- **Precision:** 0.74
-- **Recall:** 0.76
-- **F1-score:** 0.75
+- **Accuracy:** 0.50
+- **Precision:** 0.435
+- **Recall:** 0.455
+- **F1-score:** 0.444
 
-These metrics indicate that the model performs well in predicting customer churn. High precision and recall are essential in accurately identifying customers at risk of churning, allowing the company to take proactive measures to retain them.
+These metrics indicate that the model has room for improvement in predicting customer churn. The precision, recall, and F1-scores highlight the trade-offs between false positives and false negatives. The recall for class 1 (churn) indicates that the model struggles to identify all churning customers accurately.
 
-In our case study, the GBM model provides reliable performance metrics, demonstrating its ability to generalize well to new data. The evaluation metrics provide insights into the model's effectiveness, such as its ability to correctly classify customers who are likely to churn, which is crucial for making informed retention strategies in the telecommunications industry.
+In our case study, the GBM model provides moderate performance metrics, demonstrating its potential to generalize to new data. The evaluation metrics provide insights into the model's effectiveness, such as its ability to correctly classify customers who are likely to churn, which is crucial for making informed retention strategies in the telecommunications industry.

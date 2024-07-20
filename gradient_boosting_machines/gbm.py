@@ -58,7 +58,7 @@ print(f'Accuracy: {accuracy}')
 print('Confusion Matrix:')
 print(conf_matrix)
 print('Classification Report:')
-print(class_report)
+print(classification_report(y_test, y_pred))
 
 # Plotting the confusion matrix
 plt.figure(figsize=(8, 6))
