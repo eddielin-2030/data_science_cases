@@ -17,7 +17,7 @@ LightGBM builds decision trees sequentially, with each new tree correcting the e
 The objective function for LightGBM is optimized using gradient descent, and the model combines the predictions of all trees to minimize the loss function.
 
 ## 4. Python Code to perform LightGBM for the problem presented in the case study
-The Python code for performing LightGBM on a credit card fraud detection dataset is provided in a separate file: [lightgbm.py](./lightgbm.py).
+The Python code for performing LightGBM on a credit card fraud detection dataset is provided in a separate file: [lightgbm.py](./litegbm.py).
 
 ## 5. Insights summary
 LightGBM is a powerful and efficient algorithm that can handle large-scale datasets and complex relationships. In the context of predicting credit card fraud, the LightGBM model leverages multiple decision trees to capture the factors contributing to fraudulent transactions.
